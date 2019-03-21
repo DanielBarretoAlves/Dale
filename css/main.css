@@ -8,3 +8,6 @@ body{
 	text-align:center;
 	padding: 20px 10px;
 }
+.topHeader h1{
+	font-family: 'Josefin Sans', sans-serif;
+}
