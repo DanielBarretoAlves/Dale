@@ -6,29 +6,94 @@ body{
 	overflow: hidden;
 	background-color: #f1f1f1;
 	text-align:center;
-	padding: 1px 10px;
+	padding: 1px 0px;
+	border-bottom:0px;
 }
 .topHeader h1{
 	font-family: 'Prompt', sans-serif;
 }
-.imgblock1{
+.fraseInsp{
 	background-color:#689f38;	
-	/* background-image: url("https://asset2.cxnmarksandspencer.com/is/image/mands/44e79d5a6007d11fd420b6c302d0f2fc0ef404da?$Homepage_600x330$"); */
-	background-image: url("../img/qwerty.jpg");
+	overflow:hidden;
 	background-position: center;
+	background-image:url("img/vege1.jpeg");
 	background-size: cover;
 	position: relative;
-	filter: blur(8px);
-  	-webkit-filter: blur(8px);
-	height: 400px;
+	height: 600px;
 	background-position: center;
  	background-repeat: no-repeat;
 	background-size: cover;
 
 }
-.inspT{
-	background-color: rgb(0,0,0); /* Fallback color */
-  	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+.fraseInsp img{
+	z-index: -1;
+	postion:absolute;
+}
+.subtitulo{
+	margin-left:auto;
+	margin-right:auto;
+	width:38%;
+	z-index:2;
+	color:white;
+	font-size:30px;
+	text-align:center;
+	text-shadow: 2px 2px black;
+}
+.zipCode
+{
+	width:30%;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	height:260px;
+	padding:5px;
+	border-radius:5px;
+}
+.zipCode p{
+	text-align:center;
+	font-weight:bold;
+}
+.zipCode .getZip{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px;
+	margin:3%;
+	width:65%;
+}
+.zipCode .zipButton{
+	padding:10px;
+	border:none;
+	color:white;
+	text-align:center;
+	text-decoration: none;
+	cursor:pointer;
+	clar:none;
+	background-color:#689f38;
+	border-radius:5px;
+}
+.zipCode .zipButton:hover{
+	background-color:#387002;
+}
+.customerType label{
+	font-size:20px;
+	border-radius: 50%;
+	background: white;
+	text-align:center;
+	height:12px;
+	padding:20px;
+}
+.customerType input[type=radio]{
+	border:none;
+	width:30px;
+	background-color: #ffa500;
+	content: '';
+	visibility: visible;
+	height:30px;
+}
+
+/*{
+	background-color: rgb(0,0,0); /* Fallback color 
+  	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through 
   	color: white;
   	font-weight: bold;
  	border: 1px solid #f1f1f1;
@@ -44,4 +109,4 @@ body{
  	text-align: center;
  	filter: blur(0px);
   	-webkit-filter: blur(0px);
-}
+}*/
