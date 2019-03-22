@@ -12,6 +12,10 @@ body{
 .topHeader h1{
 	font-family: 'Prompt', sans-serif;
 }
+.topHeader .Z{
+	color:#689f38;
+	font-size:35px;
+}
 .fraseInsp{
 	background-color:#689f38;	
 	overflow:hidden;
