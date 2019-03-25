@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	
 }
 .topHeader{
 	background-color:#f1f8e9;
@@ -27,6 +28,7 @@ body{
 	background-position: center;
  	background-repeat: no-repeat;
 	background-size: cover;
+	
 
 }
 .fraseInsp img{
@@ -67,6 +69,7 @@ body{
 .zipCode .zipButton{
 	padding:10px;
 	border:none;
+
 	color:white;
 	text-align:center;
 	text-decoration: none;
@@ -94,8 +97,46 @@ body{
 	visibility: visible;
 	height:30px;
 }
+.explicationSite{
+	background-color:#577926;	
+	overflow:hidden;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 400px;
+	background-position: center;
+ 	background-repeat: no-repeat;
+	background-size: cover;
+}
+.explicationSite h3{
+	color:white;
+	text-align:center;
+	margin:20px;
+}
+.explicationSite p{
+	color:white;
+	text-align:center;
+	margin-top:20px;
+}
+.catMercadoria{
+	background-image:url("img/avocado.jpeg");
+	background-size: cover;
+	height:500px;
+	width:100%;
+	
+}
+.catMercadoria a{
+	text-decoration:none;
+	color: black;
+	background-color:white;
+	border-radius: 5px;
+	margin:10px;
+	text-align:center;
+	font-size:20px;
+}
 
 /*{
+	https://www.w3schools.com/cssref/tryit.asp?filename=trycss_vertical-align
 	background-color: rgb(0,0,0); /* Fallback color 
   	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through 
   	color: white;
