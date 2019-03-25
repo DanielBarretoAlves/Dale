@@ -51,7 +51,7 @@ body{
 	background-color:white;
 	margin-left:auto;
 	margin-right:auto;
-	height:260px;
+	height:170px;
 	padding:5px;
 	border-radius:5px;
 }
@@ -64,7 +64,7 @@ body{
 	background-color: #f2f2f2;
 	padding: 10px;
 	margin:3%;
-	width:65%;
+	width:55%;
 }
 .zipCode .zipButton{
 	padding:10px;
@@ -98,7 +98,7 @@ body{
 	height:30px;
 }
 .explicationSite{
-	background-color:#577926;	
+	background-color:#99aa00;	
 	overflow:hidden;
 	background-position: center;
 	background-size: cover;
