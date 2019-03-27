@@ -152,7 +152,36 @@ body{
 	text-align:center;
 	color:white;
 }
-
+.mapinha{
+	width:100%;
+}
+.fotinha
+{
+	width:100%;
+	height:500px;
+	background-image: url("img/mixtao.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.pageBottom
+{
+	width:100%;
+	height:400px;
+	background-color:red;
+	display:flex;
+}
+.dispLeft{
+	width:50%;
+	left:auto;
+	background-color:blue;
+	right:0px;padding:15px;
+	margin:right:5%;
+}
+.dispRight{
+	width:50%;
+	right:0px;padding:15px;
+	background-color:green;
+}
 /*{
 	https://www.w3schools.com/cssref/tryit.asp?filename=trycss_vertical-align
 	background-color: rgb(0,0,0); /* Fallback color 
