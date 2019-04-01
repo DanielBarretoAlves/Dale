@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	background-color:yellow;
+}
+header{
+	width:100%;
+	text-align:center;
+	background-color:#f1f1f1;
+	overflow:hidden;
+}
+.Z{
+	color:#689f38;
+	font-size:35px;
+}
+section{
+	min-width:100%;
+	background-color:blue;
+	height:900px;
+}
+article{
+	height:400px;
+	background:#2e7d32;
+	width:100%;padding:10px;
+}
+.zipCodeText{
+	width:100%;
+	height:120px;
+}
+.card{
+	background:white;
+	padding:10px;
+	width:600px;
+	height:250px;
+	margin:auto;
+	border-radius:5px
+}
+.inputButton{
+	border-radius:5px;
+	border-color:#99aa00;
+	color:003d00;
+	height:40px;
+	font-weight:bold;
+	background:none;
+}
+.inputButton:hover{
+	background:#003d00;
+	color:#629749;
+}
+.inputText{
+	border-radius:5px;
+	border-color:#99aa00;
+	height:35px;
+	text-align:center;
+	min-width:300px
+}
+.head2head{
+	height:100%;
+	width:45%;
+	background:white;
+}
+#zipCode{
+	background-image:url("img/vege1.jpeg");
+	background-size:cover;
+}
+#zipCodeCard{
+	text-align:center;
+}
+#infoSec{
+	text-align:center;
+}
+#productsSec{
+	background-image:url("img/avocado.jpeg");
+	background-size:cover;
+}
+#localSec{
+	padding:0;
+}
+#empitySec{
+	background-image:url("img/mixtao.jpg");
+	background-size:cover;
+}
+

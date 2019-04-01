@@ -1,5 +1,7 @@
 body{
 	margin: 0;
+	background-color:blue;
+	display:block;
 	
 }
 .topHeader{
@@ -47,7 +49,8 @@ body{
 }
 .zipCode
 {
-	width:30%;
+	max-width:600px;
+	min-width:500px;
 	background-color:white;
 	margin-left:auto;
 	margin-right:auto;
@@ -120,7 +123,8 @@ body{
 	background-image:url("img/avocado.jpeg");
 	background-size: cover;
 	height:300px;
-	width:100%;
+	min-width:90%;
+	max-width:100%;
 	padding:20px;
 	
 }
@@ -154,6 +158,7 @@ body{
 }
 .mapinha{
 	width:100%;
+	overflow:hidden;
 }
 .fotinha
 {
@@ -161,26 +166,46 @@ body{
 	height:500px;
 	background-image: url("img/mixtao.jpg");
 	background-size: cover;
+	overflow:hidden;
+	margin:0px;
 	background-position: center;
 }
 .pageBottom
 {
 	width:100%;
 	height:400px;
-	background-color:red;
+	background: black;
 	display:flex;
 }
+.pageBottom{
+	width:100%;
+	overflow:hidden;
+	display:inline;
+	text-align:center;
+	background-color:white;
+}
+.botText{
+	  float: top;
+  width: 100%;
+  height: 30px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
 .dispLeft{
-	width:50%;
-	left:auto;
-	background-color:blue;
-	right:0px;padding:15px;
-	margin:right:5%;
+	float: left;
+  width: 47%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+
 }
 .dispRight{
-	width:50%;
-	right:0px;padding:15px;
-	background-color:green;
+	float: right;
+	padding: 20px;
+	width: 48%;
+	background-color: #f1f1f1;
+	height: 300px; /* only for demonstration, should be removed */
 }
 /*{
 	https://www.w3schools.com/cssref/tryit.asp?filename=trycss_vertical-align
