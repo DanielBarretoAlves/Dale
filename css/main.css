@@ -1,0 +1,229 @@
+body{
+	margin: 0;
+	background-color:blue;
+	display:block;
+	
+}
+.topHeader{
+	background-color:#f1f8e9;
+	overflow: hidden;
+	background-color: #f1f1f1;
+	text-align:center;
+	padding: 1px 0px;
+	border-bottom:0px;
+}
+.topHeader h1{
+	font-family: 'Prompt', sans-serif;
+}
+.topHeader .Z{
+	color:#689f38;
+	font-size:35px;
+}
+.fraseInsp{
+	background-color:#689f38;	
+	overflow:hidden;
+	background-position: center;
+	background-image:url("img/vege1.jpeg");
+	background-size: cover;
+	position: relative;
+	height: 450px;
+	background-position: center;
+ 	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+.fraseInsp img{
+	z-index: -1;
+	postion:absolute;
+}
+.subtitulo{
+	margin-left:auto;
+	margin-right:auto;
+	width:38%;
+	z-index:2;
+	color:white;
+	font-size:30px;
+	text-align:center;
+	text-shadow: 2px 2px black;
+}
+.zipCode
+{
+	max-width:600px;
+	min-width:500px;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	height:170px;
+	padding:5px;
+	border-radius:5px;
+}
+.zipCode p{
+	text-align:center;
+	font-weight:bold;
+}
+.zipCode .getZip{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px;
+	margin:3%;
+	width:55%;
+}
+.zipCode .zipButton{
+	padding:10px;
+	border:none;
+
+	color:white;
+	text-align:center;
+	text-decoration: none;
+	cursor:pointer;
+	clar:none;
+	background-color:#689f38;
+	border-radius:5px;
+}
+.zipCode .zipButton:hover{
+	background-color:#387002;
+}
+.customerType label{
+	font-size:20px;
+	border-radius: 50%;
+	background: white;
+	text-align:center;
+	height:12px;
+	padding:20px;
+}
+.customerType input[type=radio]{
+	border:none;
+	width:30px;
+	background-color: #ffa500;
+	content: '';
+	visibility: visible;
+	height:30px;
+}
+.explicationSite{
+	background-color:#99aa00;	
+	background-size: cover;
+	overflow:hidden;
+	height: 300px;
+	background-position: center;
+ 	background-repeat: no-repeat;
+	background-size: cover;
+}
+.explicationSite h3{
+	color:white;
+	text-align:center;
+	margin:20px;
+}
+.explicationSite p{
+	color:white;
+	text-align:center;
+	margin-top:20px;
+}
+.catMercadoria{
+	background-image:url("img/avocado.jpeg");
+	background-size: cover;
+	height:300px;
+	min-width:90%;
+	max-width:100%;
+	padding:20px;
+	
+}
+.buttonense{
+	margin-left:auto;
+	overflow:hidden;
+	margin-right:auto;
+	height:200px;
+	width:70%;
+	border-radius: 5px;
+	text-align:center;
+	font-size:80px;
+}
+.buttonense button{
+	border-radius:5px;
+	overflow:hidden;
+	font-size:35px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:white;
+	color:black;
+}
+.browser
+{
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	color:white;
+}
+.mapinha{
+	width:100%;
+	overflow:hidden;
+}
+.fotinha
+{
+	width:100%;
+	height:500px;
+	background-image: url("img/mixtao.jpg");
+	background-size: cover;
+	overflow:hidden;
+	margin:0px;
+	background-position: center;
+}
+.pageBottom
+{
+	width:100%;
+	height:400px;
+	background: black;
+	display:flex;
+}
+.pageBottom{
+	width:100%;
+	overflow:hidden;
+	display:inline;
+	text-align:center;
+	background-color:white;
+}
+.botText{
+	  float: top;
+  width: 100%;
+  height: 30px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+.dispLeft{
+	float: left;
+  width: 47%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+
+}
+.dispRight{
+	float: right;
+	padding: 20px;
+	width: 48%;
+	background-color: #f1f1f1;
+	height: 300px; /* only for demonstration, should be removed */
+}
+/*{
+	https://www.w3schools.com/cssref/tryit.asp?filename=trycss_vertical-align
+	background-color: rgb(0,0,0); /* Fallback color 
+  	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through 
+  	color: white;
+  	font-weight: bold;
+ 	border: 1px solid #f1f1f1;
+ 	position: absolute;
+	top: 20%;
+	font-size: 150%;
+	border-radius:20px;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	z-index: 2;
+ 	width: 40%;
+ 	padding: 10px;
+ 	text-align: center;
+ 	filter: blur(0px);
+  	-webkit-filter: blur(0px);
+}*/
