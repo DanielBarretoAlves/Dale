@@ -1,0 +1,49 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+body{
+    
+    margin:0;
+
+}
+header{
+    background: yellow;
+    padding: 10px;
+    text-align:center;
+	background-color:#f1f1f1;
+	overflow:hidden;
+	font-family: 'Oswald', sans-serif;
+}
+section{
+    
+    margin:0px;
+    font-family: 'Roboto Mono', monospace;
+}
+footer{
+    background-color:#000a12;
+	color:white;
+	text-align:center;
+    padding: 10px;
+}
+article{
+    padding-top: 25px; 
+    padding-bottom: 10px;
+    background:#00695c;
+    text-align:center;
+}

@@ -64,6 +64,10 @@ footer{
 	text-shadow: 2px 2px black;
 	font-size:170%;
 }
+#zipCode{
+	padding: 0px;
+	background: blue;
+}
 .card{
 	background:white;
 	padding:10px;
