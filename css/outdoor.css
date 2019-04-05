@@ -133,5 +133,11 @@
             list-style-type: square;
             color: black;
         }
+        #localSec iframe{
+            width:100%;
+        }
+        .body{
+            overflow-x: hidden;
+        }
         
   }
