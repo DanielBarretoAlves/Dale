@@ -84,13 +84,13 @@
     list-style-type: none;
     display: inline;
 }
-#rightSocial a{
+#rightSocial li a{
     font-size: 40px;
     padding: 10px;
     text-decoration: none;
-    color:black;
+    color: black;
 }
-rightSocial a:hover{
+#rightSocial a:hover{
     color:white;
 }
 /*Buttons Hover*/
