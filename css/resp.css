@@ -26,7 +26,6 @@ body{
     padding: 10px;
     text-align:center;
 	  background-color:#f1f1f1;
-	  overflow:hidden;
 	  font-family: 'Oswald', sans-serif;
 }
 .section{
@@ -34,16 +33,59 @@ body{
     margin:0px;
     font-family: 'Roboto Mono', monospace;
 }
-
+footer{
+    background-color:#000a12;
+	  color:white;
+	  text-align:center;
+    padding: 15px;
+}
 .article{
     padding-top: 25px; 
     padding-bottom: 10px;
-    background:#00695c;
+    padding: 2px;
+    min-height: 400px;
+    /*background:#287233;*/
+    background: #004d40;
     text-align:center;
+    
 }
-.footer{
-  background-color:#000a12;
+.card{
+  width: 98%;
+  margin: auto;
+  background: #f1f1f1;
+  height: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-size: 80%;
+  box-shadow: 1px 1px;
+}
+
+.inputText{
+  border-radius: 5px;
+  background: none;
+  border: 1px solid #287233;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.inputButton{
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #287233;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.inputButton:hover{
+  background: #004609;
   color:white;
-  text-align:center;
-  padding: 10px;
+}
+.inputButton:focus{
+  background: #004609;
+  color:white;
+}
+@media only screen and (min-width: 700px)
+{
+  .card{
+    width: 30%;
+  }
 }
