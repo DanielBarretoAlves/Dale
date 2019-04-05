@@ -22,28 +22,28 @@ body{
     margin:0;
 
 }
-header{
-    background: yellow;
+.header{
     padding: 10px;
     text-align:center;
-	background-color:#f1f1f1;
-	overflow:hidden;
-	font-family: 'Oswald', sans-serif;
+	  background-color:#f1f1f1;
+	  overflow:hidden;
+	  font-family: 'Oswald', sans-serif;
 }
-section{
+.section{
     
     margin:0px;
     font-family: 'Roboto Mono', monospace;
 }
-footer{
-    background-color:#000a12;
-	color:white;
-	text-align:center;
-    padding: 10px;
-}
-article{
+
+.article{
     padding-top: 25px; 
     padding-bottom: 10px;
     background:#00695c;
     text-align:center;
+}
+.footer{
+  background-color:#000a12;
+  color:white;
+  text-align:center;
+  padding: 10px;
 }
