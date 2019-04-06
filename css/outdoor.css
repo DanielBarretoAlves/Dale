@@ -117,7 +117,8 @@
         #leftAbout, #rightSocial{
           width:50%;
         }
-        #leftAbout{
+        #leftAbout p, #rightSocial p{
+            border-bottom: 3px solid black;
 
         }
         #botCol{
