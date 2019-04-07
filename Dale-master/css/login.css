@@ -1,0 +1,24 @@
+/*Desktop*/
+#body{
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 700px){
+    #section{
+        display: flex;
+    }
+    #leftArt{
+        width: 60%;
+        background-image:url("img/plate.jpg");
+        background-size: cover;
+        min-height: 750px;
+    }
+    #rightArt{
+        width: 40%;
+        background: #c7c7c7;
+    }
+    #loginCard{
+        width:90%;
+        margin: auto;
+        min-height: 600px;
+    }
+}
