@@ -1,28 +1,7 @@
 /*Desktop*/
 #body{
     box-sizing: border-box;
-    
 }
-#leftArt{
-    display: none;
-}
-#rightArt{
-    height: 680px;
-    background:#c7c7c7;
-    background-size: cover;
-}
-.footer{
-    float: bottom;
-    background: #424242;
-}
-#loginCard{
-    width: 98%;
-    height: auto;
-    margin-top: 20%;
-
-}
-/*-----------------------------teste*/
-/*------------------------------fim teste*/
 @media only screen and (min-width: 700px){
     #section{
         display: flex;
@@ -32,19 +11,14 @@
         background-image:url("img/plate.jpg");
         background-size: cover;
         min-height: 750px;
-        display: initial;
     }
     #rightArt{
         width: 40%;
         background: #c7c7c7;
-        height: 750px;
     }
     #loginCard{
         width:90%;
         margin: auto;
-        min-height: auto;
-        padding: 10px;
-        margin-top: 10%;
-        
+        min-height: 600px;
     }
 }
