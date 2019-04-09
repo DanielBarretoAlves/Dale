@@ -1,3 +1,3 @@
 function openLogin(){
-    window.open("login.html");
+    location.href = "login.html";
 }
