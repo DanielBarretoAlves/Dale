@@ -1,2 +1,0 @@
-# Dale
-E-Commerce
