@@ -1,1 +1,3 @@
-var int x =0;
+function openLogin(){
+    window.open("login.html");
+}

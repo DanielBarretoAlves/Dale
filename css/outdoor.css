@@ -24,6 +24,8 @@
 }
 #infoSec{
     text-shadow: 0px 0px black;
+    background-color: #287233; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #59a15e , #004609);
 }
 #productsSec{
     height: 350px;
@@ -38,6 +40,7 @@
 }
 #localSec iframe{
     min-height: 400px;
+    margin: 0;
 }
 #empitySec{
     background-image:url("img/plate.jpg");
