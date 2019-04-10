@@ -31,17 +31,19 @@
 }
 
 #infoText {
-    margin: auto;
+    
     text-align: left;
-    max-width: 70%;
+    max-width: 100%;
+    padding: 10px;
+    text-align: left;
 }
 #infoText h3{
     text-align: center;
-    padding-bottom: 10%;
-    font-size: 30px;
+    font-size: 40px;
+    
 }
 #infoText p{
-    font-size: 20px;
+    font-size: 15px;
 }
 #productsSec{
     height: 350px;
